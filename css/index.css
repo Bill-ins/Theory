@@ -1,0 +1,296 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    border-top: 20px solid #5385c1;
+}
+
+/* Applying Clear-Fix */
+.clearFix::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+/* Header Starts Here */
+/* Top Banner */
+.topBanner {
+    background-image: url(../img/dd.jpg);
+    background-repeat: no-repeat;
+    color: white;
+}
+
+/* Master Center For Centering Elements */
+.topBanner .masterCenter {
+    width: 1300px;
+    height: 455px;
+    margin: 0px auto;
+    padding-top: 75px;
+}
+
+/* Logo */
+.logo {
+    font-weight: 700;
+    float: left;
+}
+
+.navLinks {
+    float: right;
+    margin-bottom: 110px;
+}
+
+.navLinks ul {
+    list-style-type: none;
+    margin: 0px;
+}
+
+.navLinks ul li {
+    float: left;
+    margin-left: 30px;
+}
+
+.navLinks ul li a {
+    text-decoration: none;
+    color: lightgrey;
+}
+
+.topBanner .heading {
+    clear: both;
+    text-align: center;
+    font-size: 60px;
+    font-weight: lighter;
+    margin: 0px;
+}
+
+.topBanner .description {
+    text-align: center;
+    color: lightgrey;
+}
+/* Header Ends Here */
+
+
+/* Website Body Starts Here  */
+
+/* Body Part-1/Row One. Three Boxes In a Row Starts Here */
+.threeBoxes {
+    margin-top: 115px;
+}
+
+/* Master Center For Centering Elements */
+.threeBoxes .masterCenter {
+    width: 1300px;
+    margin: 0px auto;
+}
+
+.threeBoxes .box {
+    width: 335px;
+    float: left;
+}
+
+.threeBoxes .box .heading {
+    color: #5385c1;
+    font-size: 30px;
+    margin-top: 0px;
+}
+
+.threeBoxes .box .paragraph {
+    color:#a4a4a7;
+    word-spacing: 2px;
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 0px;
+}
+
+.threeBoxes .box button {
+    border: 0px;
+    padding: 15px 25px;
+    color: white;
+    background-color: 5385c1;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+/* Setting Horzontal Line After Boxes */
+.threeBoxes .horizontalLine {
+    padding-right: 65px;
+    border-right: 2px solid lightgrey;
+}
+
+/* Setting Margin After Boxes To Fit All Boxes In One Row */
+.threeBoxes .setMargin {
+    margin-right: 78px;
+}
+/* Body Part-1/Row One. Three Boxes In a Row Ends Here */
+
+
+/* Body Part-2/Row two. Four Images Starts Here */
+.ipsum {
+    background-color: #5385c1;
+    margin-top: 100px;
+    overflow: auto;
+}
+
+/* Master Center For Centering Elements */
+.ipsum .masterCenter {
+    width: 1300px;
+    margin: 0px auto;
+    color: white;
+}
+
+.ipsum .heading {
+    margin-top: 120px;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 45px;
+    margin-bottom: 0px;
+}
+
+.ipsum .description {
+    text-align: center;
+    font-weight: lighter;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.ipsum .fourImg {
+    margin-top: 70px;
+    margin-bottom: 140px;
+}
+
+.ipsum .fourImg .box {
+    border: 1px solid silver;
+    padding: 50px;
+    float: left;
+}   
+
+.ipsum .fourImg .box img {
+    border-radius: 100%;
+}
+
+.ipsum .fourImg .boxHeading {
+    margin: 30px 0px 0px 0px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.ipsum .fourImg .boxDescription {
+    text-align: center;
+    font-weight: lighter;
+    margin: 5px 0px 0px 0px;
+    color: whitesmoke;
+    font-size: 17px;
+}
+
+/* Setting Margin After Boxes To Fit All Boxes In One Row */
+.ipsum .fourImg .setMargin {
+    margin-left: 73px;
+}
+/* Body Part-2/Row two. Four Images Ends Here */
+
+
+/* Body Part-3/Row Three. Two Images Starts Here */
+.nunc {
+    margin-top: 120px;
+    overflow: auto;
+}
+
+/* Master Center For Centering Elements */
+.nunc .masterCenter {
+    width: 1300px;
+    margin: 0px auto;
+}
+
+.nunc .heading {
+    color: #5385c1;
+    margin-top: 120px;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 45px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.nunc .description {
+    text-align: center;
+    font-weight: lighter;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    color: gray;
+}
+
+.nunc .twoImages {
+    margin-top: 70px;
+}
+
+.nunc .twoImages .box {
+    width: 610px;
+}
+
+.nunc .twoImages .box1 {
+    float: left;
+}
+
+.nunc .twoImages .box2 {
+    float: right;
+}
+
+.nunc .twoImages .boxHeading {
+    color: #5385c1;
+    font-size: 30px;
+    margin-top: 45px;
+}
+
+.nunc .twoImages .paragraph {
+    color:#a4a4a7;
+    word-spacing: 2px;
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 0px;
+}
+
+.nunc .twoImages button {
+    border: 0px;
+    padding: 15px 25px;
+    color: white;
+    background-color: 5385c1;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+/* Body Part-3/Row Three. Two Images Ends Here */
+
+/* Website Body Ends Here  */
+
+
+/* Footer Starts Here  */
+.footer {
+    margin-top: 100px;
+}
+
+/* Master Center For Centering Elements */
+.footer .masterCenter {
+    width: 1300px;
+    margin: 0px auto;
+    border-top: 2px solid lightgray;
+    padding: 55px 0px 40px 0px;
+}
+
+.footer p {
+    color:#a4a4a7;
+    font-size: 15px;
+    float: left;
+    margin: 0px;
+}
+
+.footer .socialMedia {
+    float: right;
+}
+
+.footer .socialMedia a {
+    text-decoration: none;
+    color: #5385c1;
+    margin-left: 20px;
+}
+/* Footer Ends Here  */
