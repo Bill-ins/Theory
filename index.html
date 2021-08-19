@@ -1,184 +1,219 @@
-<html>
-    <head>
-        <!-- Website Title -->
-        <title>Theory</title>
+<!DOCTYPE html>
+<html lang="en">
+  <!-- HTML Head tag -->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
 
-        <!-- Meta Tags For Search Engine Optimiztion -->
-        <meta charset="UTF-8">
-        <meta name="author" content="">
-        <meta name="description" content="">
-        <meta name="keywords" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Theory Bootstrap</title>
 
-        <!-- Google Fonts Import Link-->
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- Google Fonts Import Link-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
-        <!-- Font Awesome Link -->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <!-- Font Awesome Link -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
-        <!-- CSS Stylesheet Import Link -->
-        <link rel="stylesheet" type="text/css" href="css/index.css">
-    </head>
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <body>
-        
-        <!-- Header Starts Here -->
-        <div class="header">
+    <!-- Local CSS -->
+    <link rel="stylesheet" href="css/custom css/index.css">
 
-            <!-- Center Aligning The Elements -->
-            <div class="masterCenter">
+  </head>
 
-                <!-- Clear a Section For Floating Elements -->
-                <div class="topmostSec clearFix">
+  <!-- The Main Website Body Starts From Here -->
+  <body>
+    
+    <!-- Website Header Starts Here -->
+    <div id="fullWidthHeader">
 
-                    <!-- Top-Left Corner Logo -->
-                    <h4 class="logo">Theory</h4>
+      <div class="masterCenter">
 
-                    <!-- Navigation Links -->
-                    <ul class="nav clearFix">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Generic</a></li>
-                        <li><a href="#">Elements</a></li>
-                    </ul>
-
-                </div>
-
-                <!-- Banner Heading -->
-                <h1 class="heading">Welcome to Theory</h1>
-                <div class="description">A free responsive HTML 5 website templated by TEMPLATED</div>
-
-            </div>
-            
+        <!-- Top Section (Logo and Navigation) -->
+        <div class="navbar navbar-default myNavingation">
+          <!-- Logo -->
+          <div class="navbar-header navTop">
+            <button type="button" class="navbar-toggle myBtn" data-toggle="collapse" data-target="#navigation">
+              <span class="icon-bar myiconbar"></span>
+              <span class="icon-bar myiconbar"></span>
+              <span class="icon-bar myiconbar"></span>
+            </button>
+            <a href="#" class="navbar-brand logo">Theory</a>
+          </div>
+          <!-- Navigation Menu -->
+          <div class="collapse navbar-collapse navmenu" id="navigation">
+            <ul class="nav navbar-nav navbar-right">
+              <li class="active current"><a href="#">Home</a></li>
+              <li><a href="#">Generic</a></li>
+              <li><a href="#">Elements</a></li>
+            </ul>
+          </div>
         </div>
-        <!-- Header Ends Here -->
-
-        <!-- -------------------------------------------------------------------------------------------------------- -->
-
-        <!-- Webiste Body Starts Here -->
-
-        <!-- Part 1 or Row 1. Three Boxes Starts Here -->
-        <div class="threeBoxes clearFix">
-
-            <!-- Box 1 -->
-            <div class="box first">
-                <h3 class="heading">Lorem ipsum dolor sit amet consectetur</h3>
-                <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi culpa
-                    repudiandae expedita vel neque</p>
-                <button class="more">More</button>
-            </div>
-
-            <!-- Box 2 -->
-            <div class="box centerBox">
-                <h3 class="heading">Lorem ipsum dolor sit amet consectetur</h3>
-                <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi culpa
-                    repudiandae expedita vel neque</p>
-                <button class="more">More</button>
-            </div>
-
-
-            <!-- Box 3 -->
-            <div class="box last">
-                <h3 class="heading">Lorem ipsum dolor sit amet consectetur</h3>
-                <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi culpa
-                    repudiandae expedita vel neque</p>
-                <button class="more">More</button>
-            </div>
-
-
+        <!-- Banner Section -->
+        <div class="banner">
+          <h1>Welcome to Theory</h1>
+          <p>A free responsive HTML 5 website templated by TEMPLATED</p>
         </div>
-        <!-- Part 1 or Row 1. Three Boxes Ends Here -->
 
-        <!-- Part-2 or Row-2. Four Round Image Starts Here -->
-        <div class="fourImg">
-        
-            <h2 class="heading">Ipsum Feugiat</h2>
-            <p class="description">Semper suscipt posuere apede</p>
-                
-            <div class="fourBoxes clearFix">
+      </div>
 
-                <!-- Box 1 -->
-                <div class="box box1">
-                    <img src="img/img2.jpg" alt="Cannot Load Image">
-                    <h3 class="boxHeading">Magna</h3>
-                    <p class="boxDescription">Cipum dolor</p>
-                </div>
+    </div>
+    <!-- Website Header Ends Here -->
 
-                <!-- Box 2 -->
-                <div class="box box2 adjustMargin adjustMarginTab adjustMarginMob">
-                    <img src="img/img3.jpg" alt="Cannot Load Image">
-                    <h3 class="boxHeading">Magna</h3>
-                    <p class="boxDescription">Cipum dolor</p>
-                </div>
 
-                <!-- Box 3 -->
-                <div class="box box3 adjustMargin adjustMarginTop adjustMarginMob">
-                    <img src="img/img4.jpg" alt="Cannot Load Image">
-                    <h3 class="boxHeading">Magna</h3>
-                    <p class="boxDescription">Cipum dolor</p>
-                </div>
+    <!-- ********************************************************************************************************************************************** -->
 
-                <!-- Box 4 -->
-                <div class="box box4 adjustMargin adjustMarginTab adjustMarginTop adjustMarginMob">
-                    <img src="img/img5.jpg" alt="Cannot Load Image">
-                    <h3 class="boxHeading">Magna</h3>
-                    <p class="boxDescription">Cipum dolor</p>
-                </div>
 
-            </div>
+    <!-- Webiste Body Starts Here -->
 
+    <!-- Part 1 or Row 1. Three Boxes Starts Here -->
+    <div class="container" id="customContainer1">
+      <!-- Row -->
+      <div class="row">
+        <!-- Box 1 -->
+        <div class="col-lg-4 col-sm-6 box rtPadding addBorderRt remPaddingLt addBorderBtm addPaddingBtm">
+          <h3>Lorem ipsum dolor sit amet consectetur</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi culpa
+              repudiandae expedita vel neque</p>
+          <button>More</button>
         </div>
-        <!-- Part-2 or Row-2. Four Round Image Ends Here -->
+        <!-- Box 2 -->
+        <div class="col-lg-4 col-sm-6 box rtPadding ltPadding addBorderRt remPaddingRt remBorderRt textR addBorderBtm addPaddingBtm">
+          <h3>Lorem ipsum dolor sit amet consectetur</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi culpa
+              repudiandae expedita vel neque</p>
+          <button>More</button>
+        </div>
+        <!-- Box 3 -->
+        <div class="col-lg-4 col-sm-12 box ltPadding remPaddingLt remPaddingRt textC">
+          <h3 class="addBorderTp sizing addPaddingTp remBorderTp">Lorem ipsum dolor sit amet consectetur</h3>
+          <p class="sizing">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi culpa
+              repudiandae expedita vel neque</p>
+          <button class="sizing">More</button>
+        </div>
 
-        <!-- Part-3 or Row-3. Two Images Starts Here -->
-        <div class="twoImgs">
+      </div>
 
-            <h2 class="heading">Nunc Dignissim</h2>
-            <p class="description">Aliquam erat volutpat nam dui</p>
+    </div>
+    <!-- Part 1 or Row 1. Three Boxes Ends Here -->
 
-            <div class="twoBoxes clearFix">
-
-                <!-- Left Box -->
-                <div class="box leftBox">
-                    <img src="img/img6.jpg" alt="Cannot Load Image">
-                    <h3 class="boxHeading">Aliquam erat volutpat</h3>
-                    <p class="paragraph">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni modi quibusdam deleniti ratione excepturi facere nisi incidunt saepe nesciunt? Repellat nisi temporibus libero illum unde</p>
-                    <button>More</button>
-                </div>
-
-                <!-- Right Box -->
-                <div class="box rightBox adjustMarginMob">
-                    <img src="img/img7.jpg" alt="Cannot Load Image">
-                    <p class="boxHeading">Aliquam erat volutpat</p>
-                    <p class="paragraph">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni modi quibusdam deleniti ratione excepturi facere nisi incidunt saepe nesciunt? Repellat nisi temporibus libero illum unde</p>
-                    <button>More</button>
-                </div>
-
+    <!-- Part-2 or Row-2. Four Round Image Starts Here -->
+    <div id="customContainer2">
+      
+      <div class="container">
+        <!-- Text Section -->
+        <div class="row text">
+          <div class="col-lg-12">
+            <h2>Ipsum Feugiat</h2>
+            <p>Semper suscipt posuere apede</p>
+          </div>
+        </div>
+        <!-- Images -->
+        <div class="row fourImages text-center">
+          <!-- Box 1 -->
+          <div class="col-lg-3 col-sm-6 box">
+            <div class="innerBox">
+              <img src="img/img2.jpg" alt="Cannot Load Image" class="img-circle">
+              <h3>Magna</h3>
+              <p>Cipum dolor</p>
             </div>
+          </div>
+          <!-- Box 2 -->
+          <div class="col-lg-3 col-sm-6 box marginTpSm">
+            <div class="innerBox">
+              <img src="img/img3.jpg" alt="Cannot Load Image" class="img-circle">
+              <h3>Magna</h3>
+              <p>Cipum dolor</p>
+            </div>
+          </div>
+          <!-- Box 3 -->
+          <div class="col-lg-3 col-sm-6 box">
+            <div class="innerBox marginTp marginTpSm">
+              <img src="img/img4.jpg" alt="Cannot Load Image" class="img-circle">
+              <h3>Magna</h3>
+              <p>Cipum dolor</p>
+            </div>
+          </div>
+          <!-- Box 4 -->
+          <div class="col-lg-3 col-sm-6 box">
+            <div class="innerBox marginTp marginTpSm">
+              <img src="img/img5.jpg" alt="Cannot Load Image" class="img-circle">
+              <h3>Magna</h3>
+              <p>Cipum dolor</p>
+            </div>
+          </div>
 
         </div>
-        <!-- Part-3 or Row-3. Two Images Ends Here -->
 
-        <!-- Webiste Body Ends Here -->
+      </div>
 
-        <!-- -------------------------------------------------------------------------------------------------------- -->
+    </div>
+    <!-- Part-2 or Row-2. Four Round Image Ends Here -->
 
-        <!-- Website Footer Starts Here -->
-        <div class="footer clearFix">
-
-            <p class="copyRight">&copy; Untitled Design TEMPLATED Images Unplash.</p>
-
-            <!-- Social Media Links -->
-            <div class="socialMedia">
-                <a href="#" target="_blank"><span class="fa fa-facebook-f"></span></a>
-                <a href="#" target="_blank" class="adjustMarginTab adjustMarginMob"><span class="fa fa-twitter"></span></a>
-                <a href="#" target="_blank" class="adjustMarginTab adjustMarginMob"><span class="fa fa-linkedin"></span></a>
-                <a href="#" target="_blank" class="adjustMarginTab adjustMarginMob"><span class="fa fa-pinterest-p"></span></a>
-                <a href="#" target="_blank" class="adjustMarginTab adjustMarginMob"><span class="fa fa-vimeo"></span></a>     
-            </div>
-
+    <!-- Part-3 or Row-3. Two Images Starts Here -->
+    <div class="container" id="customContainer3">
+      <!-- Text -->
+      <div class="row text text-center">
+        <div class="col-lg-12">
+          <h2>Nunc Dignissim</h2>
+          <p>Aliquam erat volutpat nam dui</p>
         </div>
-        <!-- Website Footer Ends Here -->
+      </div>
+      <!-- Images -->
+      <div class="row images">
+        <div class="col-lg-6 col-sm-12 box">
+          <div class="innerBox box1">
+            <img src="img/img6.jpg" alt="Cannot Load Image">
+            <h3>Aliquam erat volutpat</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni modi quibusdam deleniti ratione excepturi facere nisi incidunt saepe nesciunt? Repellat nisi temporibus libero illum unde</p>
+            <button>More</button>
+          </div>
+        </div>
+        <div class="col-lg-6 col-sm-12 box marginTpSm">
+          <div class="innerBox box2">
+            <img src="img/img7.jpg" alt="Cannot Load Image">
+            <h3>Aliquam erat volutpat</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni modi quibusdam deleniti ratione excepturi facere nisi incidunt saepe nesciunt? Repellat nisi temporibus libero illum unde</p>
+            <button>More</button>
+          </div>
+        </div>
+      </div>
 
-    </body>
+    </div>
+    <!-- Part-3 or Row-3. Two Images Ends Here -->
+
+    <!-- Webiste Body Ends Here -->
+
+
+    <!-- ********************************************************************************************************************************************** -->
+
+    
+    <!-- Website Footer Starts Here -->
+    <div class="container" id="footer">
+      <div class="row rowFooter">
+        <div class="col-lg-9">
+          <p>&copy; Untitled Design TEMPLATED Images Unplash.</p>
+        </div>
+        <div class="col-lg-3">
+          <div class="socialMedia text-right">
+            <a href="#" target="_blank"><span class="fa fa-facebook-f"></span></a>
+            <a href="#" target="_blank" class="adjustMargin"><span class="fa fa-twitter"></span></a>
+            <a href="#" target="_blank" class="adjustMargin"><span class="fa fa-linkedin"></span></a>
+            <a href="#" target="_blank" class="adjustMargin"><span class="fa fa-pinterest-p"></span></a>
+            <a href="#" target="_blank" class="adjustMargin"><span class="fa fa-vimeo"></span></a>     
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Website Footer Ends Here -->
+    
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
 </html>

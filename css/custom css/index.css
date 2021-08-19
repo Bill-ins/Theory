@@ -1,0 +1,649 @@
+body * {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* ********************** Responsive For Default Computer Monitor ************************** */
+
+/* Website Header Starts Here */
+#fullWidthHeader {
+    width: 100%;
+    background-image: url(../../img/dd.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top: 10px solid #5385c1;
+    color: white;
+    padding: 30px 0 170px 0;
+}
+
+#fullWidthHeader .masterCenter {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+#fullWidthHeader .myNavingation {
+    background: none;
+    border: 0;
+}
+/* Logo */
+#fullWidthHeader .logo {
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+}
+/* Navigation */
+#fullWidthHeader .navTop .myBtn {
+    border-radius: 0;
+    border-color: white;
+}
+
+#fullWidthHeader .navTop .myBtn .myiconbar {
+    border-color: white;
+    background-color: white;
+}
+
+#fullWidthHeader .navmenu a {
+    color: white;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+#fullWidthHeader .navmenu a:hover {
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+#fullWidthHeader .navmenu a:active {
+    font-weight: 400;
+}
+
+#fullWidthHeader .navmenu .current a {
+    font-size: 18px;
+    font-weight: 400;
+    background: none;
+}
+
+#fullWidthHeader .navmenu .current a:hover {
+    cursor: default;
+    text-decoration: none;
+}
+/* Banner */
+#fullWidthHeader .banner {
+    width: 60%;
+    margin: 120px auto 0 auto;
+    text-align: center;
+}
+
+#fullWidthHeader .banner h1 {
+    font-size: 60px;
+    font-weight: lighter;
+}
+
+#fullWidthHeader .banner p {
+    text-align: center;
+    font-weight: lighter;
+    font-size: 17px;
+    margin: 20px 0px 0px 0px;
+}
+/* Website Header Ends Here */
+
+/* ****************************************************************** */
+
+/* Webiste Body Starts Here */
+/* Part 1 or Row 1. Three Boxes Starts Here */
+#customContainer1 {
+    margin-top: 115px;
+}
+
+#customContainer1 .box h3 {
+    color: #5385c1;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+#customContainer1 .box p {
+    color:#a4a4a7;
+    word-spacing: 2px;
+    font-size: 14px;
+    line-height: 25px;
+    margin-top: 30px;
+}
+
+#customContainer1 .box button {
+    border: 0px;
+    padding: 13px 22px;
+    color: white;
+    background-color: #5385c1;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 30px 0 0 0;
+}
+
+#customContainer1 .rtPadding {
+    padding-right: 5%;
+}
+
+#customContainer1 .ltPadding {
+    padding-left: 5%;
+}
+
+#customContainer1 .addBorderRt {
+    border-right: 2px solid lightgrey;
+}
+/* Part 1 or Row 1. Three Boxes Ends Here */
+
+/* Part-2 or Row-2. Four Round Image Starts Here */
+#customContainer2 {
+    width: 100%;
+    margin-top: 100px;
+    background-color: #5385c1;
+    color: white;
+    padding: 100px 0px 120px 0px;
+}
+
+#customContainer2 .text h2 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: lighter;
+    margin: 0;
+}
+
+#customContainer2 .text p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: lighter;
+    margin: 15px 0 0 0;
+}
+
+#customContainer2 .fourImages {
+    margin: 100px 0 0 0;
+}
+
+#customContainer2 .fourImages img {
+    width: 70%;
+}
+
+#customContainer2 .fourImages .innerBox {
+    border: 1px solid silver;
+    padding: 50px 0;
+    margin: 0 10px;
+}
+
+#customContainer2 .fourImages .innerBox h3 {
+    margin: 30px 0 0 0;
+    font-weight: 300;
+    font-size: 19px;
+}
+
+#customContainer2 .fourImages .innerBox p {
+    margin: 5px 0 0 0;
+    font-weight: 100;
+    font-size: 15px;
+}
+/* Part-2 or Row-2. Four Round Image Ends Here */
+
+/* Part-3 or Row-3. Two Images Starts Here */
+#customContainer3 {
+    margin-top: 120px;
+}
+
+#customContainer3 img {
+    width: 100%;
+}
+
+#customContainer3 .text h2 {
+    font-size: 50px;
+    font-weight: lighter;
+    margin: 0;
+    color: #5385c1;
+}
+#customContainer3 .text p {
+    font-size: 18px;
+    margin: 15px 0 0 0;
+    color: #a4a4a7;
+}
+
+#customContainer3 .images {
+    margin: 60px 0 0 0;
+}
+
+#customContainer3 .images .innerBox {
+    margin: 0 10px;
+}
+
+#customContainer3 .images .innerBox h3 {
+    margin: 30px 0 0 0;
+    font-weight: 300;
+    font-size: 19px;
+    color: #5385c1;
+}
+
+#customContainer3 .images .innerBox p {
+    margin: 25px 0 0 0;
+    color:#a4a4a7;
+    word-spacing: 2px;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+#customContainer3 .images .innerBox button {
+    border: 0;
+    padding: 13px 22px;
+    color: white;
+    background-color: #5385c1;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 25px 0 0 0;
+}
+/* Part-3 or Row-3. Two Images Ends Here */
+/* Webiste Body Ends Here */
+
+/* ****************************************************************** */
+
+/* Website Footer Starts Here */
+#footer {
+    margin-top: 80px;
+    border-top: 2px solid lightgray;
+}
+
+#footer .rowFooter {
+    margin: 50px 0;
+}
+
+#footer p {
+    font-size: 13px;
+    margin: 0;
+}
+
+#footer a {
+    text-decoration: none;
+    font-size: 17px;
+    color: #5385c1;
+    margin-left: 22px;
+}
+/* Website Footer Ends Here */
+
+
+
+
+/* ********************************* Media Queries *********************************** */
+
+
+/* Media Queries For Tablet Devices */
+@media only screen and (max-width: 1200px) {
+    /* Website Header Starts Here #_Tablet_Devices */
+    #fullWidthHeader {
+        padding: 30px 0 170px 0;
+    }
+
+    #fullWidthHeader .banner {
+        width: 60%;
+        margin: 120px auto 0 auto;
+        text-align: center;
+    }
+    
+    #fullWidthHeader .banner h1 {
+        font-size: 50px;
+    }
+    
+    #fullWidthHeader .banner p {
+        font-size: 15px;
+        margin: 10px 0px 0px 0px;
+    }
+    /* Website Header Ends Here #_Tablet_Devices */
+
+    /* Website Body Starts Here #_Tablet_Devices */
+    /* Part 1 or Row 1. Three Boxes Starts Here #_Tablet_Devices */
+    #customContainer1 {
+        margin-top: 115px;
+    }
+    
+    #customContainer1 .box h3 {
+        color: #5385c1;
+        font-size: 25px;
+        font-weight: 300;
+    }
+    
+    #customContainer1 .box p {
+        color:#a4a4a7;
+        word-spacing: 2px;
+        font-size: 14px;
+        line-height: 25px;
+    }
+    
+    #customContainer1 .box button {
+        border: 0px;
+        padding: 13px 22px;
+        color: white;
+        background-color: #5385c1;
+        font-size: 15px;
+        font-weight: 600;
+        margin: 30px 0 0 0;
+    }
+    
+    #customContainer1 .remPaddingRt {
+        padding-right: 0;
+    }
+    
+    #customContainer1 .remPaddingLt {
+        padding-left: 0;
+    }
+    
+    #customContainer1 .remBorderRt {
+        border: 0;
+    }
+    
+    #customContainer1 .addBorderTp {
+        border-top: 2px solid lightgray;
+    }
+    
+    #customContainer1 .addPaddingTp {
+        padding-top: 20px;
+    }
+    
+    #customContainer1 .sizing {
+        margin: 20px 200px 0;
+    }
+    
+    #customContainer1 .textC {
+       text-align: center;
+    }
+    
+    #customContainer1 .textR {
+       text-align: right;
+    }
+    /* Part 1 or Row 1. Three Boxes Ends Here #_Tablet_Devices */
+
+    /* Part-2 or Row-2. Four Round Image Starts Here #_Tablet_Devices */
+    #customContainer2 .text h2 {
+        font-size: 40px;
+    }
+    
+    #customContainer2 .text p {
+        font-size: 16px;
+        margin: 10px 0 0 0;
+    }
+
+    #customContainer2 .fourImages {
+        margin-top: 70px;
+    }
+
+    #customContainer2 .fourImages img {
+        max-width: 150px;
+    }
+    
+    #customContainer2 .fourImages .innerBox {
+        padding: 50px 0;
+        margin: 0 22%;
+    }
+    
+    #customContainer2 .fourImages .marginTp {
+        margin-top: 50px;
+    }
+    
+    #customContainer2 .fourImages .innerBox h3 {
+        margin: 30px 0 0 0;
+        font-weight: 300;
+        font-size: 18px;
+    }
+    
+    #customContainer2 .fourImages .innerBox p {
+        margin: 5px 0 0 0;
+        font-weight: 100;
+        font-size: 14px;
+    }
+    /* Part-2 or Row-2. Four Round Image Ends Here #_Tablet_Devices */
+
+    /* Part-3 or Row-3. Two Images Starts Here #_Tablet_Devices */
+    #customContainer3 {
+        margin-top: 120px;
+    }
+      
+    #customContainer3 .text h2 {
+        font-size: 40px;
+    }
+    
+    #customContainer3 .text p {
+        font-size: 16px;
+        margin: 10px 0 0 0;
+    }
+    
+    #customContainer3 .images {
+        margin: 60px 0 0 0;
+    }
+    
+    #customContainer3 .images .innerBox {
+        margin: 0 ;
+    }
+
+    #customContainer3 .images .box1 {
+        margin-right: 40%;
+    }
+    
+    #customContainer3 .images .box2 {
+        margin-top: 50px;
+        margin-left: 40%;
+        text-align: right;
+    }
+    
+    #customContainer3 .images .innerBox h3 {
+        font-size: 18px;
+    }
+    
+    #customContainer3 .images .innerBox p {
+        margin: 15px 0 0 0;
+        word-spacing: 2px;
+        font-size: 13px;
+        line-height: 23px;
+    }
+    
+    #customContainer3 .images .innerBox button {
+        border: 0;
+        padding: 13px 22px;
+        color: white;
+        background-color: #5385c1;
+        font-size: 14px;
+        font-weight: 600;
+        margin: 25px 0 0 0;
+    }
+    /* Part-3 or Row-3. Two Images Ends Here #_Tablet_Devices */
+    /* Website Body Ends Here #_Tablet_Devices */
+
+    /* Website Footer Starts Here #_Tablet_Devices */
+    #footer p {
+        font-size: 10px;
+    }
+    
+    #footer .socialMedia {
+        text-align: center;
+    }
+
+    #footer a {
+        font-size: 30px;
+        margin: 0;
+        display: block;
+    }
+
+    #footer .adjustMargin {
+        margin-top: 20px;
+    }
+    /* Website Footer Ends Here #_Tablet_Devices */
+}
+
+
+/* Media Queries For Mobile Devices */
+@media only screen and (max-width: 767px) {
+    /* Website Header Starts Here #Mobile_Devices */
+    #fullWidthHeader {
+        padding: 30px 0 170px 0;
+    }
+
+    #fullWidthHeader .myNavingation {
+        background: none;
+        border: 0;
+    }
+    
+    #fullWidthHeader .banner h1 {
+        font-size: 40px;
+    }
+    
+    #fullWidthHeader .banner p {
+        font-size: 14px;
+        margin: 15px 0px 0px 0px;
+    }
+    /* Website Header Ends Here #Mobile_Devices */
+
+    /* Website Body Starts Here #Mobile_Devices */
+    /* Part 1 or Row 1. Three Boxes Starts Here #Mobile_Devices */  
+    #customContainer1 {
+        margin-top: 115px;
+    }
+    
+    #customContainer1 .box {
+        text-align: center;
+        padding: 0 10px;
+    }
+
+    #customContainer1 .box h3 {
+        color: #5385c1;
+        font-size: 25px;
+        font-weight: 300;
+        margin: 20px 0 0 0;
+    }
+    
+    #customContainer1 .box p {
+        color:#a4a4a7;
+        word-spacing: 2px;
+        font-size: 14px;
+        line-height: 25px;
+    }
+    
+    #customContainer1 .box button {
+        border: 0px;
+        padding: 13px 22px;
+        color: white;
+        background-color: #5385c1;
+        font-size: 15px;
+        font-weight: 600;
+        margin: 30px 0 0 0;
+    }
+    
+    #customContainer1 .remBorderTp {
+        border: 0;
+    }
+    
+    #customContainer1 .addBorderBtm {
+        border: 0;
+        border-bottom: 2px solid lightgray;
+    }
+    
+    #customContainer1 .addPaddingBtm {
+        padding-bottom: 20px;
+    }
+    
+    #customContainer1 .sizing {
+        margin: 0 0 0;
+    }
+
+    #customContainer1 .box button {
+        padding: 0;
+        width: 100%;
+        height: 30px;
+    }
+    /* Part 1 or Row 1. Three Boxes Ends Here #Mobile_Devices */      
+
+    /* Part-2 or Row-2. Four Round Image Starts Here #Mobile_Devices */
+    #customContainer2 .text h2 {
+        font-size: 30px;
+    }
+    
+    #customContainer2 .text p {
+        font-size: 15px;
+        margin: 10px 0 0 0;
+    }
+    #customContainer2 .fourImages {
+        margin-top: 50px;
+    }
+    
+    #customContainer2 .fourImages .innerBox {
+        padding: 40px 0;
+    }
+    
+    #customContainer2 .fourImages .marginTpSm {
+        margin-top: 30px;
+    }
+    
+    #customContainer2 .fourImages .innerBox h3 {
+        margin: 30px 0 0 0;
+        font-weight: 300;
+        font-size: 17px;
+    }
+    
+    #customContainer2 .fourImages .innerBox p {
+        margin: 5px 0 0 0;
+        font-weight: 100;
+        font-size: 13px;
+    }
+    /* Part-2 or Row-2. Four Round Image Ends Here #Mobile_Devices */
+
+    /* Part-3 or Row-3. Two Images Starts Here #Mobile_Devices */
+    #customContainer3 {
+        margin-top: 80px;
+    }
+
+    #customContainer3 .innerBox {
+        text-align: center;
+    }
+    
+    #customContainer3 .text h2 {
+        font-size: 30px;
+    }
+    #customContainer3 .text p {
+        font-size: 13px;
+    }
+    
+    #customContainer3 .images {
+        margin: 60px 0 0 0;
+    }
+
+    #customContainer3 .images .box {
+        padding: 0;
+    }
+    
+    #customContainer3 .images .innerBox {
+        margin: 0 ;
+        text-align: center;
+    }
+    
+    #customContainer3 .images .innerBox h3 {
+        font-size: 18px;
+    }
+    
+    #customContainer3 .images .innerBox p {
+        margin: 15px 0 0 0;
+        word-spacing: 2px;
+        font-size: 13px;
+        line-height: 23px;
+    }
+    
+    #customContainer3 .images .innerBox button {
+        padding: 0;
+        margin: 25px 0 0 0;
+        width: 100%;
+        height: 30px;
+    }
+
+    #customContainer3 .images .marginTpSm {
+        margin-top: 30px;
+    }
+    /* Part-3 or Row-3. Two Images Ends Here #Mobile_Devices */
+    /* Website Body Ends Here #Mobile_Devices */
+
+    /* Website Footer Starts Here #Mobile_Devices */
+    #footer .socialMedia {
+        margin-top: 40px;
+    }
+    /* Website Footer Ends Here #Mobile_Devices */
+}
+
